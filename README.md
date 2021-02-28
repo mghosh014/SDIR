@@ -22,7 +22,8 @@ Make sure you have installed visual studio and vrep. If you have not istalled ye
 
 # How to clone the repository
 In the git bash terminal use the foloowing command to close the repository
-$ git clone https://github.com/mghosh014/SDIR.git
+
+                   $ git clone https://github.com/mghosh014/SDIR.git
 
 # How this code works
 Visual studio takes input from vrep GUI and send set of calculated trajectory to vrep for robots movement
