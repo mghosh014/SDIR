@@ -12,8 +12,6 @@ After run the main.cpp from Visual studio, one GUI will be open from vrep where 
 If you run this code you will see lin movement perfecly working on KUKA robot. For observing the robot movement please open vrep and from vrep please open the scene file from sim folder. Open the ctrl folder on Microsoft visual studio or any other C++ ide which support memory management, otherwise you can get some build error.
 
 
-
-
 # Software requirement 
 
 Make sure you have installed visual studio and vrep. If you have not istalled yet, please download the software from given below link and intall it first.
@@ -21,6 +19,10 @@ Make sure you have installed visual studio and vrep. If you have not istalled ye
 * Microsoft visual studio 2019, Software download link: https://visualstudio.microsoft.com/downloads/
 
 * vrep 3.6.2(Coppelia Robotics), Software download link: https://www.coppeliarobotics.com/previousVersions
+
+# How to clone the repository
+In the git bash terminal use the foloowing command to close the repository
+git clone https://github.com/mghosh014/SDIR.git
 
 # How this code works
 Visual studio takes input from vrep GUI and send set of calculated trajectory to vrep for robots movement
