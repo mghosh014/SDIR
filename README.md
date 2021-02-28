@@ -16,7 +16,7 @@ If you run this code you will see lin movement perfecly working on KUKA robot. F
 
 Make sure you have installed visual studio and vrep. If you have not istalled yet, please download the software from given below link and intall it first.
 
-* Microsoft visual studio 2019, Software download link: https://visualstudio.microsoft.com/downloads/
+* Microsoft visual studio 2019, Software [Download link] (https://visualstudio.microsoft.com/downloads/)
 
 * vrep 3.6.2(Coppelia Robotics), Software download link: https://www.coppeliarobotics.com/previousVersions
 
