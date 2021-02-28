@@ -8,10 +8,10 @@ After run the main.cpp from Visual studio, one GUI will be open from vrep where 
 
 #Software requirement:
 
-1. Microsoft visual studio
+* Microsoft visual studio
 Software download link: https://visualstudio.microsoft.com/downloads/
 
-2. vrep(Coppelia Robotics)
+* vrep(Coppelia Robotics)
 Software download link: https://www.coppeliarobotics.com/previousVersions
 
 
