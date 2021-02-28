@@ -1,4 +1,4 @@
-# SDIR 2020 Controler
+# Software development for industrial KUKA robot
 This code repository consists of two parts: the ctrl and the sim part. The ctrl folder contains all necessary code files for your controler. The sim folder contains the [VREP](https://www.coppeliarobotics.com/) .ttt file with all necessary implementation for simulation.
 
 # What is done by myself
