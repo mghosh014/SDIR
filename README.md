@@ -19,6 +19,7 @@ Make sure you have installed visual studio and vrep. If you have not istalled ye
 
 * vrep 3.6.2(Coppelia Robotics), Software download link: https://www.coppeliarobotics.com/previousVersions
 
-
+# How this code works
+Visual studio takes input from vrep GUI and send set of calculated trajectory to vrep for robots movement
 
 
