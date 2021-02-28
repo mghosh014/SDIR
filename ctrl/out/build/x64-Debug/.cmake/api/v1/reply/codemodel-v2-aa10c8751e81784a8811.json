@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src/ctrl",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/ctrl",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/ctrl/com",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/ctrl/com",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/ctrl/com/remoteApi",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/ctrl/com/remoteApi",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/ctrl/kinematics/direct",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/ctrl/kinematics/direct",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/ctrl/kinematics/inverse",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/ctrl/kinematics/inverse",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/ctrl/pathplanner/lin",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/ctrl/pathplanner/lin",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/ctrl/pathplanner/ptp",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/ctrl/pathplanner/ptp",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/ctrl/postypes",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/ctrl/postypes",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "sdir_ctrl2020",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Com::@c5b49e1b52e97b0e9938",
+					"jsonFile" : "target-Com-Debug-579be56c725c04e4f837.json",
+					"name" : "Com",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Ctrl::@1e222b3e12635c6ec777",
+					"jsonFile" : "target-Ctrl-Debug-593b9fb4522463868938.json",
+					"name" : "Ctrl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "FWKin::@a9a01bff6496b13ca90b",
+					"jsonFile" : "target-FWKin-Debug-d65360371717af615e33.json",
+					"name" : "FWKin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "IVKin::@2c7ce39670b4c05d959a",
+					"jsonFile" : "target-IVKin-Debug-4106cb4c340d1e0361c1.json",
+					"name" : "IVKin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "LIN::@db53bbdf2c37f3186400",
+					"jsonFile" : "target-LIN-Debug-ece38636416669458de8.json",
+					"name" : "LIN",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "PTP::@6d1cdce5918fd66beee5",
+					"jsonFile" : "target-PTP-Debug-5508c7ea64bfb9cfc144.json",
+					"name" : "PTP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "PosTypes::@bba40f9ec3e1319a110e",
+					"jsonFile" : "target-PosTypes-Debug-388e6369f517613cf190.json",
+					"name" : "PosTypes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RemoteAPI::@1d37d6178557fa6b7cbb",
+					"jsonFile" : "target-RemoteAPI-Debug-8b1076fc2415e611465c.json",
+					"name" : "RemoteAPI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdir_ctrl2020::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdir_ctrl2020-Debug-b74fe7a01365a20ff4b9.json",
+					"name" : "sdir_ctrl2020",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Software Development for Indutrial Robotics/cse_admin-sdir_2020-c1e41e08af7e/cse_admin-sdir_2020-c1e41e08af7e/ctrl/out/build/x64-Debug",
+		"source" : "E:/Software Development for Indutrial Robotics/cse_admin-sdir_2020-c1e41e08af7e/cse_admin-sdir_2020-c1e41e08af7e/ctrl"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

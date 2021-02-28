@@ -1,0 +1,260 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "sdir_ctrl2020.exe"
+		},
+		{
+			"path" : "sdir_ctrl2020.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DO_NOT_USE_SHARED_MEMORY"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "MAX_EXT_API_CONNECTIONS=255"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "NON_MATLAB_PARSING"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "E:/Software Development for Indutrial Robotics/cse_admin-sdir_2020-c1e41e08af7e/cse_admin-sdir_2020-c1e41e08af7e/ctrl/postype"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "E:/Software Development for Indutrial Robotics/cse_admin-sdir_2020-c1e41e08af7e/cse_admin-sdir_2020-c1e41e08af7e/ctrl/src/ctrl/postypes"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "E:/Software Development for Indutrial Robotics/cse_admin-sdir_2020-c1e41e08af7e/cse_admin-sdir_2020-c1e41e08af7e/ctrl/json"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "E:/Software Development for Indutrial Robotics/cse_admin-sdir_2020-c1e41e08af7e/cse_admin-sdir_2020-c1e41e08af7e/ctrl/include/json"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "E:/Software Development for Indutrial Robotics/cse_admin-sdir_2020-c1e41e08af7e/cse_admin-sdir_2020-c1e41e08af7e/ctrl/vrep"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "E:/Software Development for Indutrial Robotics/cse_admin-sdir_2020-c1e41e08af7e/cse_admin-sdir_2020-c1e41e08af7e/ctrl/include/vrep"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "Ctrl::@1e222b3e12635c6ec777"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Com::@c5b49e1b52e97b0e9938"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "RemoteAPI::@1d37d6178557fa6b7cbb"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "FWKin::@a9a01bff6496b13ca90b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "IVKin::@2c7ce39670b4c05d959a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "LIN::@db53bbdf2c37f3186400"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "PosTypes::@bba40f9ec3e1319a110e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "PTP::@6d1cdce5918fd66beee5"
+		}
+	],
+	"id" : "sdir_ctrl2020::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src\\ctrl\\Ctrl.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "src\\ctrl\\com\\Com.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "src\\ctrl\\com\\remoteApi\\RemoteAPI.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "src\\ctrl\\postypes\\PosTypes.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "src\\ctrl\\kinematics\\direct\\FWKin.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "src\\ctrl\\kinematics\\inverse\\IVKin.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "src\\ctrl\\pathplanner\\ptp\\PTP.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "src\\ctrl\\pathplanner\\lin\\LIN.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "sdir_ctrl2020",
+	"nameOnDisk" : "sdir_ctrl2020.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

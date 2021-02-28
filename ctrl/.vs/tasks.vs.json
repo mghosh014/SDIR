@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-inverse_kinematics",
+      "appliesTo": "src/ctrl/kinematics/inverse/inverse_kinematics.cpp",
+      "type": "launch"
+    }
+  ]
+}
