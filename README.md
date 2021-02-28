@@ -1,8 +1,11 @@
 # Software development for industrial KUKA robot
 This code repository consists of two parts: the ctrl and the sim part. The ctrl folder contains all necessary code files for your controler. The sim folder contains the [VREP](https://www.coppeliarobotics.com/) .ttt file with all necessary implementation for simulation.
 
+# Disclaimer
+This is academic masters course project at Otto von Guericke University, Germany. Without permisssion this code should not be used for any kind of personal or industrial work.
+
 # What is done by myself
-In this file I developed forward kinematics, inverse kinematics and lin movement file. 
+In this file I developed inverse kinematics, forward kinematics and lin movement file. 
 
 # How to build
 After run the main.cpp from Visual studio, one GUI will be open from vrep where you have to press apply first then select lin movement and press move robot/run.
